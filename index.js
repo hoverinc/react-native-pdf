@@ -23,7 +23,7 @@ import { ProgressView } from '@react-native-community/progress-view'
 
 let RNFetchBlob;
 try {
-    RNFetchBlob = require('rn-fetch-blob').default;
+    RNFetchBlob = require('react-native-blob-util').default;
 } catch(e) {
     // For Windows, when not using rn-fetch-blob with Windows support.
     RNFetchBlob = {
